@@ -4,7 +4,7 @@
 
 var target = Argument("target", "Default");
 
-string feedUrl = "http://6pak.opten.ch/nuget";
+string feedUrl = "http://6pak.opten.ch/nuget/v2-nuget/";
 string version = null;
 
 var dest = Directory("./artifacts");
