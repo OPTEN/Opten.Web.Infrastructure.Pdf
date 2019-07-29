@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opten.Web.Infrastructure.Pdf", "src\Opten.Web.Infrastructure.Pdf\Opten.Web.Infrastructure.Pdf.csproj", "{1881F6D4-967D-4156-B70B-B27F5282CCBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{20962E2E-33B7-47BC-9DB6-F514C30B2ECE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7C2EA629-B0F4-4212-ADB7-5761840CE07F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opten.Web.Infrastructure.Pdf.Test", "test\Opten.Web.Infrastructure.Pdf.Test\Opten.Web.Infrastructure.Pdf.Test.csproj", "{A72C8355-9E2F-4F4B-BDB9-4447826D9837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{3DA06A61-1E3D-43A8-91FB-1D4761F4F573}"
+	ProjectSection(SolutionItems) = preProject
+		build\build.cake = build\build.cake
+		build\build.ps1 = build\build.ps1
+		build\Opten.Web.Infrastructure.Pdf.nuspec = build\Opten.Web.Infrastructure.Pdf.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1881F6D4-967D-4156-B70B-B27F5282CCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1881F6D4-967D-4156-B70B-B27F5282CCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1881F6D4-967D-4156-B70B-B27F5282CCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1881F6D4-967D-4156-B70B-B27F5282CCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A72C8355-9E2F-4F4B-BDB9-4447826D9837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72C8355-9E2F-4F4B-BDB9-4447826D9837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72C8355-9E2F-4F4B-BDB9-4447826D9837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72C8355-9E2F-4F4B-BDB9-4447826D9837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1881F6D4-967D-4156-B70B-B27F5282CCBD} = {20962E2E-33B7-47BC-9DB6-F514C30B2ECE}
+		{A72C8355-9E2F-4F4B-BDB9-4447826D9837} = {7C2EA629-B0F4-4212-ADB7-5761840CE07F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF5D1AF2-0937-4B7F-9E32-A66EC38D1B5E}
+	EndGlobalSection
+EndGlobal
