@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>Opten.Web.Infrastructure.Pdf</id>
+		<version></version>
+		<title>Opten.Web.Infrastructure.Pdf</title>
+		<authors>OPTEN AG</authors>
+		<owners>OPTEN AG</owners>
+		<projectUrl>https://bitbucket.org/opten/opten-solutions</projectUrl>
+		<description><![CDATA[OPTEN Web Infrastructure PDF Library]]></description>
+		<iconUrl>http://www.opten.ch/nuget/logo.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<releaseNotes></releaseNotes>
+		<tags>opten</tags>
+		<dependencies>
+			<dependency id="Opten.Common" version="src\Opten.Web.Infrastructure.Pdf\packages.config" />
+			<dependency id="PDFsharp-MigraDoc-GDI" version="src\Opten.Web.Infrastructure.Pdf\packages.config" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="src\Opten.Web.Infrastructure.Pdf\bin\Release\Opten.Web.Infrastructure.Pdf.dll" target="lib\net45" />
+		<file src="src\Opten.Web.Infrastructure.Pdf\bin\Release\Opten.Web.Infrastructure.Pdf.pdb" target="lib\net45" />
+		<file src="src\Opten.Web.Infrastructure.Pdf\bin\Release\Opten.Web.Infrastructure.Pdf.xml" target="lib\net45" />
+	</files>
+</package>
