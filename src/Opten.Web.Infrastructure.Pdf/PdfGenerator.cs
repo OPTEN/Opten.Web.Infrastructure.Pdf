@@ -121,6 +121,7 @@ namespace Opten.Web.Infrastructure.Pdf
 			}
 
 			this.Elements = new List<IPdfElement>();
+			this.Pages = new List<IPdfPage>();
 
 			_title = title;
 			_author = author;
