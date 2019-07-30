@@ -106,14 +106,15 @@ namespace Opten.Web.Infrastructure.Pdf.Templates
 			}
 
 			IPdfGenerator generator = new PdfGenerator(
-				   title: this._title,
-				   author: this._author,
-				   subject: this._subject,
-				   keywords: this._keywords,
-				   absolutePathToPdfTemplate: this._absolutePathToPdfTemplate,
-				   pdfStyling: this._pdfStyling);
+				title: this._title,
+				author: this._author,
+				subject: this._subject,
+				keywords: this._keywords,
+				absolutePathToPdfTemplate: this._absolutePathToPdfTemplate,
+				pdfStyling: this._pdfStyling);
 
 			generator.Elements.AddRange(this.Elements);
+			generator.Pages.AddRange(this.Pages);
 
 			return generator;
 		}
