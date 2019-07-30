@@ -17,6 +17,14 @@ namespace Opten.Web.Infrastructure.Pdf.Interfaces
 		List<IPdfElement> Elements { get; }
 
 		/// <summary>
+		/// Gets the pages.
+		/// </summary>
+		/// <value>
+		/// The elements.
+		/// </value>
+		List<IPdfPage> Pages { get; }
+
+		/// <summary>
 		/// Saves the PDF on disk.
 		/// </summary>
 		/// <param name="filePath">The file path.</param>
