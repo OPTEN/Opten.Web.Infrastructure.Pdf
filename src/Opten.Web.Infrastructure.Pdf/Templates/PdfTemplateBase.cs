@@ -23,6 +23,14 @@ namespace Opten.Web.Infrastructure.Pdf.Templates
 		/// </value>
 		public List<IPdfElement> Elements { get; set; }
 
+		/// <summary>
+		/// Gets the pages.
+		/// </summary>
+		/// <value>
+		/// The pages.
+		/// </value>
+		public List<IPdfPage> Pages { get; set; }
+
 		#endregion
 
 		#region Protected/Private fields
@@ -51,6 +59,7 @@ namespace Opten.Web.Infrastructure.Pdf.Templates
 		public PdfTemplateBase()
 		{
 			Elements = new List<IPdfElement>();
+			Pages = new List<IPdfPage>();
 		}
 
 		/// <summary>

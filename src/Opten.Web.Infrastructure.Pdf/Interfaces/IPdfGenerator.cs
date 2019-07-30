@@ -20,7 +20,7 @@ namespace Opten.Web.Infrastructure.Pdf.Interfaces
 		/// Gets the pages.
 		/// </summary>
 		/// <value>
-		/// The elements.
+		/// The pages.
 		/// </value>
 		List<IPdfPage> Pages { get; }
 
