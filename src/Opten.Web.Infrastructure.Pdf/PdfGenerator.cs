@@ -207,7 +207,7 @@ namespace Opten.Web.Infrastructure.Pdf
 			return document;
 		}
 
-		private PdfDocument Render()
+		protected virtual PdfDocument Render()
 		{
 			// Create a MigraDoc document 
 			Document document = this.CreateDocument();
