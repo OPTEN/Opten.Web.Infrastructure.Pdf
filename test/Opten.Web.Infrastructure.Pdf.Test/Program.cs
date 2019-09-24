@@ -17,12 +17,12 @@ namespace Opten.Web.Infrastructure.Pdf.Test
 			//Headings();
 			//Images();
 			//PdfWithInvoice();
-			PdfWithTable();
+			//PdfWithTable();
 			//PdfWithEmptyCells();
 			//PdfLandscape();
 			//PdfWithEtiquette();
-			//RobertSpleiss_AG();
-			//RobertSpleiss_AG_2();
+			RobertSpleiss_AG();
+			RobertSpleiss_AG_2();
 			//Rimuss_Recipe();
 
 			//new SimpleMailer("info@opten.ch", "info@opten.ch", "m.airó@bluewin.ch")
