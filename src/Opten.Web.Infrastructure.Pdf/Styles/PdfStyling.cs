@@ -411,7 +411,8 @@ namespace Opten.Web.Infrastructure.Pdf.Styles
 
 		private void Paragraphs(Document document)
 		{
-			Style style = document.Styles.AddStyle(PdfStyleNames.Paragraph.Default, PdfStyleNames.Normal);
+			// super weird... only appear to be a bug? in 1.50
+			Style style = document.Styles[0] as Style;// document.Styles.AddStyle(PdfStyleNames.Paragraph.Default, PdfStyleNames.Normal);
 			style.ParagraphFormat.Font.Name = this.FontName; //TODO: Why do we have to set it here again?
 
 			style = document.Styles.AddStyle(PdfStyleNames.Paragraph.Small, PdfStyleNames.Paragraph.Default);

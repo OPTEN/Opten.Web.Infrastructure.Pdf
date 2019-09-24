@@ -1,6 +1,4 @@
-﻿using MigraDoc.DocumentObjectModel;
-
-namespace Opten.Web.Infrastructure.Pdf.Styles
+﻿namespace Opten.Web.Infrastructure.Pdf.Styles
 {
 	/// <summary>
 	/// The PDF Style Names for CI/CD.
